@@ -18,3 +18,8 @@
 **Jupyter notebook containg the class, functions, and parameters for tracking the cells in the two-photon fast-z-stack images.**
 * Make z-projected image and use marker based watershed segmentation to segment cells. Then use the centroid of the previous frame's segmenation as a marker for the segment in the next frame. Initialize the cell segmentations from different starting frame and move forward/backwards to make multiple segmentations. Use the segmentations that is robust to the initial frame and movement direction.  
 * Shows analyses examples. 
+---
+### Calculating_DRR_and_cell_movements_20220921.ipynb
+**Jupyter notebook containing the functions and parameters for calculating the DR/R, based on the cell segmentation data and the fluorescence from tdTomato and GCaMP7.**
+* Based on the cell segmentation data, calculate DR/R and show the activity vs position, activity vs tibia angle, etc.
+* Shows analysis examples.

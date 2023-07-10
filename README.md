@@ -16,4 +16,5 @@
 ---
 ### Cell_tracking_20200920_v2.ipynb
 **Jupyter notebook containg the class, functions, and parameters for tracking the cells in the two-photon fast-z-stack images.**
+* Make z-projected image and use marker based watershed segmentation to segment cells. Then use the centroid of the previous frame's segmenation as a marker for the segment in the next frame. Initialize the cell segmentations from different starting frame and move forward/backwards to make multiple segmentations. Use the segmentations that is robust to the initial frame and movement direction.  
 * Shows analyses examples. 
